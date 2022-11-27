@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+  transition: all 0.3s;
+  color: black !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Navbar */
+.nav-content .logo {
+  position: relative;
+  color: #292b2e !important;
+  letter-spacing: 2px;
+  font-size: 23px !important;
+  margin-top: 25px;
+}
+.nav-content .logo::before {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 9px;
+  left: 1px;
+  top: -8px;
+  background: linear-gradient(96.34deg, #e537b9 0%, #c040df 100%);
+  border-radius: 4.5px;
+}
+/* Navbar */
+
+/* TodaySection */
+.today-section .today {
+  font-size: 24px !important;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.today-section p {
+  /* font-size: 18px !important; */
+  letter-spacing: 1px;
+  color: #858585 !important;
+}
+/* TodaySection */
+
+#accordianNews {
+  width: 100%;
+}
+
+.card {
+  border: 0 !important;
+  color: #444;
+}
+
+.card:hover img{
+  filter: brightness(80%);
+}
+.card-title {
+  margin-bottom: 0.2rem;
+  font-size: 24px;
+  font-weight: 700;
+  color: #292b2e;
+}
+.card-body{
+  margin: 0 15px !important ;
+}
+.card span {
+  font-size: 0.8rem;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.card-img-top {
+  max-height: 25rem;
+  object-fit: cover;
+  object-position: center !important;
+  border-radius: 0;
+  margin-top: -15px  !important;
+}
+
+.card-author {
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #586069 !important;
+  padding-top: 1rem !important;
+}
+/* to hide the after icon` */
+.accordion-button::after {
+  background-image: initial;
+  width: 0;
+}
+
+.accordion-button:not(.show)::after {
+  background-image: initial;
+  width: 0;
+}
+/* to hide the after icon` */
+
+.accordion-button {
+  color: #737373 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.accordion-button-icon {
+  color: #737373 !important;
+  background-color: transparent;
+  width: 25px;
+
+  margin-right: 0.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #424242 !important;
+  background-color: transparent !important;
+  outline: none;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) .accordion-button-icon {
+  transition: transform 0.4s;
+  transform: rotate(180deg);
+  color: #424242;
+}
+
+.accordion-button.collapsed .accordion-button-icon {
+  transition: transform 0.4s;
+  transform: rotate(0);
+  color: #737373;
+}
+
+.accordion-button::after {
+  background-image: initial;
+  width: 0;
+}
+
+.accordion-button:not(.show)::after {
+  background-image: initial;
+  width: 0;
+}
+
+ion-icon {
+  font-size: 25px !important;
+  color: rgb(37, 37, 37) !important;
+}
+
+.carousel-control-prev {
+  background-color: #F6F8FA !important;
+  width: 30px !important;
+}
+
+.carousel-control-next {
+  background-color: #F6F8FA !important;
+  width: 30px !important;
+}
